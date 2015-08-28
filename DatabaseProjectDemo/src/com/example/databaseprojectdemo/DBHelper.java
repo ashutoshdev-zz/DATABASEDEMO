@@ -5,6 +5,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/*
+ * 
+ * new data base project for testing
+ */
 public class DBHelper extends SQLiteOpenHelper {
 
 	public static final String DBNAME = "MYDB";
