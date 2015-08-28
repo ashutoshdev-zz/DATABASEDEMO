@@ -4,11 +4,11 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
-/*
- * 
- * new data base project for testing
- */
+
+//new my app working here for database 
+
 public class DBHelper extends SQLiteOpenHelper {
 
 	public static final String DBNAME = "MYDB";
@@ -18,6 +18,8 @@ public class DBHelper extends SQLiteOpenHelper {
 	public DBHelper(Context context) {
 		super(context, "MYDB", null, version);
 		// TODO Auto-generated constructor stub
+		
+		Log.e("herer", "here");
 	}
 
 	@Override
