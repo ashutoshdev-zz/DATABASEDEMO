@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    <com.jafarkhq.views.EndlessListView
+        android:id="@+id/endlessListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#404040"
+        android:dividerHeight="1px"
+        android:fastScrollEnabled="false"
+        android:drawSelectorOnTop="true"
+    
+        tools:ignore="PxUsage" />
+    <!-- android:transcriptMode="normal" -->
+
+</RelativeLayout>
